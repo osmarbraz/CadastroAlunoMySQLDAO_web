@@ -5,10 +5,10 @@
  - Esta é uma versão do sistema para a IDE NetBeans.<br> 
  - O projeto no NetBeans deve ser chamado CadastroAlunoMySQLDAO_web.<br>
  - Os dados estão armazenados no banco de dados MySQL.<br>
- - Este programa possui diversas classes organizada nos pacotes, principal, dao e modelo.<br>
+ - Este programa possui diversas classes organizada nos pacotes, principal, visão(web), dao e modelo.<br>
  - A pasta src contêm os fontes do projeto.<br>
  - A interface gráfica foi construída utilizando HTML, JavaScript e CSS.<br>
- - Utiliza o Apache Tomcat 9.<br> 
+ - Utiliza o Apache Tomcat 9, NetBeans 13 e JDK 1.8<br> 
 
 ### Banco de dados
 
