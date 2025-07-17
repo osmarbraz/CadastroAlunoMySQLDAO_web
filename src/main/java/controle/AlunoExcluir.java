@@ -26,7 +26,7 @@ public class AlunoExcluir extends HttpServlet {
                 } else {
                     out.print("<span class='mensagemExcluir'>Exclus&atilde;o n&atilde;o realizada.</span><br>");
                 }
-                out.print("<br><a href=\"" + request.getContextPath() + "/FrmGerenciarAluno.jsp\"> Excluir </a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a><br>");
+                out.print("<br><a href=\"" + request.getContextPath() + "/FrmGerenciarAluno.jsp\">Gerenciar Aluno</a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a><br>");
 
                 out.println("</body></html>");
             }

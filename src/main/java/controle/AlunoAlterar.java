@@ -34,7 +34,7 @@ public class AlunoAlterar extends HttpServlet {
                     out.print("<span class='mensagemAlterar'>Altera&ccedil;&atilde;o n&atilde;o realizada.</span><br>");
                 }
 
-                out.print("<br><a href=\"" + request.getContextPath() + "/FrmGerenciarAluno.jsp\"> Alterar </a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a><br>");
+                out.print("<br><a href=\"" + request.getContextPath() + "/FrmGerenciarAluno.jsp\">Gerenciar Aluno</a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a><br>");
 
                 out.println("</body></html>");
             }

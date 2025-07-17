@@ -32,7 +32,7 @@ public class AlunoIncluir extends HttpServlet {
                     out.print("<span class='mensagemIncluir'>Inclus&atilde;o n&atilde;o realizada.</span><br>");
                 }
 
-                out.print("<br><a href=\"" + request.getContextPath() + "/FrmCadastroAluno.jsp\"> Incluir </a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a> <br>");
+                out.print("<br><a href=\"" + request.getContextPath() + "/FrmCadastroAluno.jsp\">Cadastrar Aluno</a> - <a href=\"" + request.getContextPath() + "/index.jsp\"> Menu </a> <br>");
 
                 out.println("</body></html>");
             }
