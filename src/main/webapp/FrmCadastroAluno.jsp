@@ -30,7 +30,7 @@
                 Curso: <input type=text name="curso" value="<%=aluno != null ? aluno.getCurso() : ""%>" size=25 maxlength=50> <br><br>
                 Fase: <input type=text name="fase" value="<%=aluno != null ? aluno.getFase() : ""%>" size=10 maxlength=15 onkeydown="return somenteNumero(event)"> <br><br>
                 <input type="reset" value="Limpar">
-                <input type="submit" name="Cadastrar" value="Cadastrar" onClick="return validar(this.form);"> <br>		
+                <input type="submit" name="Cadastrar" value="Cadastrar" onClick="return validar(this.form)"> <br>		
             </form>
             <br>
             <a href='index.jsp'>Voltar ao menu</a>        

@@ -113,8 +113,11 @@ public class Aluno extends Pessoa {
      * @return Verdadeiro ou falso se conseguiu fazer a inclusão.
      */
     public boolean insertAlunoBD(String nome, int idade, String curso, int fase) {
+        //Localiza o maior id de aluno e soma 1
         int id = this.maiorID() + 1;
+        //Instancia um objeto aluno com os dados
         Aluno objeto = new Aluno(id, nome, idade, curso, fase);
+        //Envia o objeto ao dao para inserir no bd
         dao.insertAlunoBD(objeto);
         return true;
     }
