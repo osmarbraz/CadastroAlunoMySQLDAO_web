@@ -17,7 +17,7 @@
     </properties>
     
     <dependencies>
-        <!-- Biblioteca Java WEB -->    
+        <!-- Biblioteca Java para WEB -->    
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
